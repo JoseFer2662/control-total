@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
 })
 
 const PORT = process.env.PORT
-server.listen(PORT, function(){
+app.listen(PORT, function(){
     console.log("Aplicacion corriendo en EL PUERTO: " + PORT)
 })
 
